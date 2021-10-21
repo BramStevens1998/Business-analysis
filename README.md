@@ -25,6 +25,7 @@
 - Voor elke fase is een aparte directory voorzien waar jullie tussentijdse resultaten in kunnen bijhouden:
     - Fase 1: [hypothese/](hypothese/)
     - Fase 2: [literatuuronderzoek/](literatuuronderzoek/)
-    - Fase 3: [analyse/](analyse/)
-    - Fase 4: [rapport/](rapport/)
+    - Fase 3: [interviews/](interviews/)
+    - Fase 4: [analyse/](analyse/)
+    - Fase 5: [rapport/](rapport/)
 - Teamleden houden een persoonlijk logboek bij in [logboek/](logboek/)
