@@ -1,0 +1,100 @@
+---
+title: "De impact van het bespelen van een instrument op de wiskundige geletterdheid"
+subtitle: "Analyse resultaten"
+author: "Arshad Aysha, Bouazzaoui Houssam, Moons Sebastiaan, Stevens Bram, Vanhoucke Dré"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Data inlezen
+
+We gebruiken de Tidyverse functies om het CSV-bestand in te lezen.We hebben alleen de nodige kolommen toegevoegd die nodig zijn voor onze analyse- en visualisatietechnieken.
+Met het commando `attach(math_prof)` hebben we ervoor gezorgd dat we niet met de $-teken moeten werken.
+
+```{r}
+math_prof <- read_csv('../data/npe-1920-wiskundige-geletterdheid.csv')[,c('MusicalInstrument','MusicEducation','MusicYears','SheetMusic','MathPrep','SecondaryMathResults','GradeMath4IT','GradePOD1')]
+attach(math_prof)
+```
+
+## Verband tussen GradeMath4IT en MusicalInstrument
+GradeMath4IT: Kwantitatief<br/>
+MusicalInstrument: Kwalitatief<br/>
+AnalyseTechniek: t-toets voor 2 steekproeven<br/>
+
+```{r}
+controle<-GradeMath4IT[MusicalInstrument=='Nee']
+interventie<-GradeMath4IT[!is.na(MusicalInstrument)||MusicalInstrument!='Nee']
+t.test(controle,interventie,alternative = 'less')
+```
+De p-waarde, 0.3986, ligt duidelijk boven het significantieniveau (niet expliciet opgegeven, dus werd de standaardwaarde α = 0,05 gebruikt). We mogen de nullhypothese niet verwerpen en besluiten dat er mogelijks een verband is.
+
+<br/> Visualisatietechniek: Boxplot<br/>
+```{r}
+boxplot(GradeMath4IT ~ MusicalInstrument)
+```
+
+## Verband tussen GradePOD1 en MusicEducation
+GradePOD1: Kwantitatief<br/>
+MusicEducation: Kwalitatief<br/>
+AnalyseTechniek: t-toets voor 2 steekproeven<br/>
+```{r}
+controle1<-GradePOD1[is.na(MusicEducation)]
+interventie1<-GradePOD1[!is.na(MusicEducation)]
+t.test(controle1,interventie1,alternative = 'less')
+```
+De p-waarde, 0.3108, ligt duidelijk boven het significantieniveau (niet expliciet opgegeven, dus werd de standaardwaarde α = 0,05 gebruikt). We mogen de nullhypothese niet verwerpen en besluiten dat er mogelijks een verband is.
+
+<br/> Visualisatietechniek: Boxplot<br/>
+```{r}
+boxplot(GradePOD1 ~ MusicEducation) 
+```
+
+## Verband tussen SecondaryMathResults en SheetMusic
+SecondaryMathResults: Kwantitatief<br/>
+SheetMusic: Kwalitatief<br/>
+AnalyseTechniek: t-toets voor 2 steekproeven<br/>
+```{r}
+controle2<-SecondaryMathResults[SheetMusic=='Nee']
+interventie2<-SecondaryMathResults[SheetMusic=='Ja']
+t.test(controle2,interventie2,alternative = 'less')
+```
+De p-waarde, 0.08445, ligt boven het significantieniveau (niet expliciet opgegeven, dus werd de standaardwaarde α = 0,05 gebruikt). We mogen de nullhypothese niet verwerpen en besluiten dat er mogelijks een verband is.
+
+<br/> Visualisatietechniek: Boxplot<br/>
+```{r}
+boxplot(SecondaryMathResults ~ SheetMusic) 
+```
+
+## Verband tussen MathPrep en MusicYears
+MathPrep: Kwantitatief<br/>
+MusicYears: Kwantitatief<br/>
+AnalyseTechniek: Regressie<br/>
+
+```{r}
+MathPrep_MusicYears_lm <- lm(MathPrep ~ MusicYears)
+MathPrep_MusicYears_lm
+
+ggplot(data = math_prof, mapping = aes(x = MathPrep , y = MusicYears)) +
+  geom_point() +
+  geom_smooth(method = "lm" ,formula = y ~ x, se = FALSE)
+```
+
+Met deze tabel willen we laten inzien dat we uit dit verband geen conlusies kunnen trekken omdat er te weinig observaties zijn.
+```{r}
+AantalGeenMuziekJaren<-length(which(MusicYears==0))
+AantalMetMuziekJaren<-length(which(MusicYears>0))
+AantalGeenAntwoord<-length(which(is.na(MusicYears)))
+TotaalAantal<-length(MusicYears)
+PercentAantalGeenMuziekJaren<-format(round(length(which(MusicYears==0))/length(MusicYears)*100,2),nsmall=2)
+PercentAantalMetMuziekJaren<-format(round(length(which(MusicYears>0))/length(MusicYears)*100,2),nsmall=2)
+PercentAantalGeenAntwoord<-format(round(length(which(is.na(MusicYears)))/length(MusicYears)*100,2),nsmall=2)
+deelnameData<-matrix(c(AantalGeenMuziekJaren,PercentAantalGeenMuziekJaren,AantalMetMuziekJaren,PercentAantalMetMuziekJaren,AantalGeenAntwoord,PercentAantalGeenAntwoord,TotaalAantal,''),ncol = 2,byrow=TRUE)
+colnames(deelnameData)<-c("Aantal antwoorden","Aantal antwoorden %")
+rownames(deelnameData)<-c("Mensen zonder muziekverleden","Mensen met muziekverleden","geen antwoord","Totaal")
+deelnameData<-as.table(deelnameData)
+deelnameData
+```
