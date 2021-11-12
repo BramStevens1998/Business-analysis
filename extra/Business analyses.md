@@ -26,7 +26,22 @@ Bron: Reaco academy
 
 Nicole De Swart
 
-Korte samenvatting: Tegenwoordig hoor je overal zeggen hoe succesvol het is om gebruik te maken van een agile werkmethode. Het zou alle projecten veel vlotter laten verlopen en alles wordt hierdoor op tijd opgeleverd. In dit artikel wordt de andere kant bekeken en wordt er gesproken over de gevaren die kunnen optreden bij agile werken. Agile werken is veel moeilijker dan het lijkt, ook is de weg niet duidelijk het is een leerproces om het volledig onder de knie te krijgen. Agile stelt zeer hoge eisen aan de product owner en legt veel vertrouwen bij hem neer. Hierdoor is het in praktijk vrijwel onmogelijk deze rol perfect in te vullen. Hierna hebben we ook nog enkele gevaren zoals uitstelgedrag, te kort aan samenwerkingskwaliteiten en een onzekerheid tijdens het project.
+Korte samenvatting: Tegenwoordig hoor je overal zeggen hoe succesvol het is om gebruik te maken van een agile werkmethode. Het zou alle projecten veel vlotter laten verlopen en alles wordt hierdoor op tijd opgeleverd. In dit artikel wordt de andere kant bekeken en wordt er gesproken over de gevaren die kunnen optreden bij agile werken. Agile werken is veel moeilijker dan het lijkt, ook is de weg niet duidelijk het is een leerproces om het volledig onder de knie te krijgen. Agile stelt zeer hoge eisen aan de product owner en legt veel vertrouwen bij hem neer. Hierdoor is het in praktijk vrijwel onmogelijk deze rol perfect in te vullen. Hierna hebben we ook nog enkele gevaren zoals uitstelgedrag, te kort aan samenwerkingskwaliteiten en een onzekerheid tijdens het project. 
+
+##Hoe je met agile requirements een goede planning maakt
+
+Artikel:
+https://www.reaco.nl/blog/hoe-je-met-agile-requirements-goede-planningen-maakt/
+
+Titel: Hoe je met agile requirements goede planningen maakt
+
+Bron: Reaco academy
+
+Nicole De Swart
+
+Korte samenvatting: Voor het maken van een planning moet je weten wat de scope en de requirements van het te ontwikkelen systeem zijn. Voor het maken van de planning heb je de complete set requirements van het op te leveren eindresultaat nodig. De afgelopen decennia hebben ons geleerd dat een volledig juist overzicht van de requirements vaststellen een onmogelijke opgave is. Nu gaan we proberen evolueren van de traditionele wijze naar het agile alternatief. In een agile traject geven we de opdrachtgever geen schijnzekerheid, maar bieden hem voorspelbaarheid en transparantie. Agile biedt de tools om inzichtelijk te maken wat er binnen tijd en budget opgeleverd kan worden. Na een aantal sprints kunnen agile teams daar al  een reëel beeld van geven en dat wordt snel daarna echt betrouwbaar. Een betrouwbare planning heeft enkele noodzakelijke kenmerken. 
+	1. Gegarandeerd binnen tijd en budget
+	2. Gegarandeerde scope
 
 ## Project management methodologieën
 
