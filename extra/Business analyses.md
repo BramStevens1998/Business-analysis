@@ -15,6 +15,19 @@ Datum: 21/03/2019 (datum video)
 
 Korte samenvatting: Er wordt een definitie gegeven aan project management, “Project management is the application of processes, methods, skills, knowledge and experience to achieve specific project objectives according to the project acceptance criteria within agreed parameters. Project management has final deliverables that are constrained to a finite timescale and budget.” Project management bestaat uit een groot aantal componenten en verschillende taken die moeten uitgevoerd worden. De kunst hierbij is om deze zodanig te organiseren dat het project tijdig kan afgerond worden. Een project kunnen we opdelen in 5 verschillende delen: planning, initiation, execution, monitoring, closing. Verder wordt er in het artikel de rol van project manager verder uitgelegd en is er een video met alle info over dit artikel.
 
+## De 8 gevaren en randvoorwaarden voor agile te werken
+
+Artikel:
+https://www.reaco.nl/blog/de-8-verborgen-gevaren-van-agile/
+
+Titel: De 8 gevaren en randvoorwaarden voor agile te werken
+
+Bron: Reaco academy
+
+Nicole De Swart
+
+Korte samenvatting: Tegenwoordig hoor je overal zeggen hoe succesvol het is om gebruik te maken van een agile werkmethode. Het zou alle projecten veel vlotter laten verlopen en alles wordt hierdoor op tijd opgeleverd. In dit artikel wordt de andere kant bekeken en wordt er gesproken over de gevaren die kunnen optreden bij agile werken. Agile werken is veel moeilijker dan het lijkt, ook is de weg niet duidelijk het is een leerproces om het volledig onder de knie te krijgen. Agile stelt zeer hoge eisen aan de product owner en legt veel vertrouwen bij hem neer. Hierdoor is het in praktijk vrijwel onmogelijk deze rol perfect in te vullen. Hierna hebben we ook nog enkele gevaren zoals uitstelgedrag, te kort aan samenwerkingskwaliteiten en een onzekerheid tijdens het project.
+
 ## Project management methodologieën
 
 Artikel:
