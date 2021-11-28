@@ -160,7 +160,9 @@ Vragen over ons onderwerp:
 - Hoe ziet een typische werkdag eruit?
 - Wat zijn de grootste obstakels die je kan tegenkomen binnen een project? 
 - Wat zou de eerste tip zijn die u geeft aan een jonge medewerker die begint aan uw job? Wat zijn de belangrijkste kwaliteiten die deze persoon zeker moet onder de knie hebben.
+- Welke project management methodologieën (Agile, Scrum, Waterfall, ...) worden toegepast binnen jullie team/organisatie?
+- Hoe verloopt de eerste meeting bij het aanvang van een project/opdracht? Worden de taken en het project goed gepresenteerd? Welke partijen zijn er bijtrokken?
 
-Afronden:
+- Afronden:
 
 - Welke doelen of ervaringen zou u graag nog willen bereiken in de toekomst?
