@@ -21,5 +21,5 @@
 ### Afronden:
 
 - Welke doelen of ervaringen zou u graag nog willen bereiken in de toekomst?
-- Wat zou de eerste tip zijn die u geeft aan een jonge medewerker die begint aan uw job? Wat zijn de belangrijkste kwaliteiten die deze persoon zeker onder de knie moet hebben.
+- Wat zouden tips zijn die u geeft aan een jonge medewerker die begint aan uw job? Wat zijn de belangrijkste kwaliteiten die deze persoon zeker onder de knie moet hebben.
 
