@@ -5,18 +5,23 @@
 - Stevens Bram
     - email: [bram.stevens@student.hogent.be](mailto:bram.stevens@student.hogent.be)
     - Github-gebruikersnaam: [BramStevens1998](https://github.com/BramStevens1998)
--  
-    - email: 
-    - Github-gebruikersnaam: 
-- 
-    - email: 
-    - Github-gebruikersnaam: 
-- 
-    - email: 
-    - Github-gebruikersnaam: 
-- 
-    - email: 
-    - Github-gebruikersnaam: 
+- Ismail Karakaya
+
+
+    - email: [ismail.karakaya@student.hogent.be](mailto:ismail.karakaya@student.hogent.be)
+    - Github-gebruikersnaam: [IsmailKarakayaa](https://github.com/IsmailKarakayaa)
+- Nick Raff
+
+
+    - email: [nick.raff@student.hogent.be ](mailto:nick.raff@student.hogent.be )
+    - Github-gebruikersnaam: [NickRaff](https://github.com/NickRaff)
+- Nicholas De Wree
+
+
+    - email: [nicholas.dewree@student.hogent.be](mailto:nicholas.dewree@student.hogent.be)
+    - Github-gebruikersnaam: [NicholasDeWree](https://github.com/NicholasDeWree)
+
+    
 
 ## Inhoud repository
 
