@@ -28,7 +28,7 @@ Nicole De Swart
 
 Korte samenvatting: Tegenwoordig hoor je overal zeggen hoe succesvol het is om gebruik te maken van een agile werkmethode. Het zou alle projecten veel vlotter laten verlopen en alles wordt hierdoor op tijd opgeleverd. In dit artikel wordt de andere kant bekeken en wordt er gesproken over de gevaren die kunnen optreden bij agile werken. Agile werken is veel moeilijker dan het lijkt, ook is de weg niet duidelijk het is een leerproces om het volledig onder de knie te krijgen. Agile stelt zeer hoge eisen aan de product owner en legt veel vertrouwen bij hem neer. Hierdoor is het in praktijk vrijwel onmogelijk deze rol perfect in te vullen. Hierna hebben we ook nog enkele gevaren zoals uitstelgedrag, te kort aan samenwerkingskwaliteiten en een onzekerheid tijdens het project. 
 
-##Hoe je met agile requirements een goede planning maakt
+## Hoe je met agile requirements een goede planning maakt
 
 Artikel:
 https://www.reaco.nl/blog/hoe-je-met-agile-requirements-goede-planningen-maakt/
