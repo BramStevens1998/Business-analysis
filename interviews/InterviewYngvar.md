@@ -25,8 +25,8 @@
   - gefocust blijven werken maar dat is moeilijk in de positie, een goeie tip is afspraken maken en tijd vrijhouden. heel veel communicatie en stand ups.
 - Welke project management methodologieën (Agile, Scrum, Waterfall, ...) worden toegepast binnen jullie team/organisatie?
   - we hebben een canvasbord zoals Jira, maar gebruiken Planner van office365, beetje een fancy Trello
-- Wat zijn de grootste verschillen met project management binnen software-ontwikkeling en implementatie?
-  - bij hun maken ze wel software maar dan vooral hardware gericht en intern vb tools en die worden intern gehost. Alles wordt verdeeld via Microsoft Intune intern als er software geïmplementeerd moet worden. Heel het bedrijf draait wel op Windows omdat Linux nog niet ondersteund wordt.
+- De meeste project management methodologieën lijken opgezet met  software-ontwikkeling of implementatie van pakketten in het achterhoofd. Zijn ze ook toepasbaar op systeembeheer?
+  - Niet echt omdat je eerder een gewone planner gebruikt in plaats van methodologieën 
 
 ### Afronden:
 
