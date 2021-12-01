@@ -4,4 +4,4 @@
 | :--- | :--- | :--- |
 | Bram Stevens | Niko Ketels | Friesland Campina X wegens ziekte |
 | Bram Stevens | Yngvar Samyn | Signpost |
-| Bram Stevens | Joeri Verhavert | |
+| Bram Stevens | Joeri Verhavert | Athos |
