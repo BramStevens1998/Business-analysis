@@ -13,25 +13,21 @@
 % Als je JabRef gebruikt voor het bijhouden van de bibliografie, zorg dan
 % dat je in ``biblatex''-modus opslaat: File > Switch to BibLaTeX mode.
 
+
 \documentclass{hogent-article}
+%\usepackage{graphicx}
+%\graphicspath{ {./images/} }
 
-\usepackage{lipsum} % Voor vultekst
-
-%------------------------------------------------------------------------------
-% Metadata over het artikel
-%------------------------------------------------------------------------------
-
-%---------- Titel & auteur ----------------------------------------------------
 
 % TODO: geef werktitel van je eigen voorstel op
-\PaperTitle{project management in systeembeheerprojecten}
+\PaperTitle{Project management in systeembeheerprojecten}
 % TODO: geef op welk soort artikel dit is
 % Dit is typisch de opdracht en het vak waarvoor dit artikel geschreven is, bv.
 % ``Verslag onderzoeksproject Onderzoekstechnieken 2018-2019''
 \PaperType{Verslag onderzoeksproject Business Analysis 2021-2022}
 
 % TODO: vul je eigen naam in als auteur, geef ook je emailadres mee!
-\Authors{Stevens Bram\textsuperscript{4}} % Authors
+\Authors{Nicholas De Wree\textsuperscript{1}, Ismail Karakaya\textsuperscript{2}, Nick Raff\textsuperscript{3}, Bram Stevens\textsuperscript{4}} % Authors
 
 % TODO: vul de naam van je co-promotor in.
 % Als het hier gaat om een voorstel voor de bachelorproef, dan ben je hier
@@ -42,58 +38,72 @@
 % Contactinfo: Geef hier de contactgegevens van elke auteur van het artikel (en
 % indien van toepassing ook van de co-promotor).
 \affiliation{
-  \textsuperscript{1} \href{}{}}
+    \textsuperscript{1} \href{mailto:nicholas.dewree@student.hogent.be}{nicholas.dewree@student.hogent.be}}
 \affiliation{
-  \textsuperscript{2} \href{}{}}
+    \textsuperscript{2} \href{mailto:ismail.karakaya@student.hogent.be}{ismail.karakaya@student.hogent.be}}
 \affiliation{
-    \textsuperscript{3} \href{}{}}
+    \textsuperscript{3}  \href{mailto:nick.raff@student.hogent.be }{nick.raff@student.hogent.be}}
 \affiliation{
-    \textsuperscript{4} \href{mailto:bram.stevens@student.hogent.be}{bram.stevens@student.hogent.be}}
+    \textsuperscript{4}
+    \href{mailto:bram.stevens@student.hogent.be}{bram.stevens@student.hogent.be}}
 
 %---------- Abstract ----------------------------------------------------------
 
-\Abstract{
-
+\Abstract{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 }
+
+%---------- Onderzoeksdomein en sleutelwoorden --------------------------------
+% TODO: Vul de sleutelwoorden aan.
+
+
+\Keywords{Lorem ipsum dolor sit amet, consectetur adipiscing elit}
+\newcommand{\keywordname}{Sleutelwoorden} % Defines the keywords heading name
 
 %---------- Titel, inhoud -----------------------------------------------------
 
 \begin{document}
-
-\flushbottom % Makes all text pages the same height
-\maketitle % Print the title and abstract box
-\tableofcontents % Print the contents section
-\thispagestyle{empty} % Removes page numbering from the first page
-
-%------------------------------------------------------------------------------
-% Hoofdtekst
-%------------------------------------------------------------------------------
-
-\section{Inleiding}
-
-
-\section{Overzicht literatuur}
-
-% Refereren naar de literatuur kan met:
-% \autocite{BIBTEXKEY} -> (Auteur, jaartal)
-% \textcite{BIBTEXKEY} -> Auteur (jaartal)
-
-
-
-\section{Methodologie}
-
-
-
-\section{Experimenten}
-
-
-\section{Analyse resultaten}
-
-
-
-\section{Conclusie}
-
-
+    \setcounter{tocdepth}{1}
+    \flushbottom % Makes all text pages the same height
+    \maketitle % Print the title and abstract box
+    \tableofcontents % Print the contents section
+    \thispagestyle{empty} % Removes page numbering from the first page
+    
+    %------------------------------------------------------------------------------
+    % Hoofdtekst
+    %------------------------------------------------------------------------------
+    
+    \section{Inleiding}
+    
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+    \section{Overzicht literatuur}
+    
+    % Refereren naar de literatuur kan met:
+    % \autocite{BIBTEXKEY} -> (Auteur, jaartal)
+    % \textcite{BIBTEXKEY} -> Auteur (jaartal)
+    % Voorbeeld van een referentie~\autocite{Moore2002}
+    
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+    
+    \section{Methodologie}
+    
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+    
+    \section{Experimenten}
+    
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+    
+    \section{Analyse resultaten}
+    
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+    \section{Conclusie}
+    
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
 
 %------------------------------------------------------------------------------
 % Referentielijst
@@ -105,5 +115,4 @@
 
 \phantomsection
 \printbibliography[heading=bibintoc]
-
 \end{document}
